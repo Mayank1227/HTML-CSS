@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="php.backend" method="post">
+    <fieldset>
+    <table>
+        <LEgend>Data</LEgend>
+        <tr>
+            <td><label for="username">username</label></td>
+            <td><input type="text" required id="username" placeholder="enter-your -name"></td>
+        </tr>
+        <tr>
+            <td><label for="password">password</label></td>
+            <td><input type="password" name=""id="password"></td>
+        </tr>
+        <tr>
+            <td><label for="email">email</label></td>
+            <td><input type="email" name="" id="email"></td>
+        </tr>
+        <tr>
+            <td><label for="month">month</label></td>
+            <td><input type="month" name="" id="month"></td>
+        </tr>
+        <tr>
+            <td><label for="week">week</label></td>
+            <td><input type="week" name="" id="week"></td>
+        </tr>
+        <tr>
+            <td><label for="Dob">Dob</label></td>
+            <td><input type="date" id="dob"></td>
+        </tr>
+         <tr>
+            <td><label for="date-tiam">date-tiam</label></td>
+             <td><input type="datetime-local" id="date-tiam"></td>
+        </tr>
+        <tr>
+            <td><label for="phon-no">phon-no</label></td>
+            <td> <input type="tel" id="phon-no"></td>
+        </tr>
+        <tr>
+            <td><label for="sir">name your sir</label></td>
+            <td>
+                <input list="name-sir" name="name-sir" id="sir" type="text">
+              <datalist id="name-sir">
+                <option value="Mayank"></option>
+                <option value="parth"></option>
+                <option value="bhavik"></option>
+                <option value="vishnu"></option>
+              </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="gander">gander</label></td>
+            <td>
+             male <input type="radio" name="gander" id="">
+             female <input type="radio" name="gander" id="">
+             other <input type="radio" name="gander" id="">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="hobbise">hobbise</label></td>
+          <td>
+               swiming <input type="checkbox" disabled name="hobbise" id="">
+               game <input type="checkbox" name="hobbise" id="">
+               travel<input type="checkbox" name="hobbise" id="">
+               other <input type="checkbox" name="hobbise" id="">
+          </td>
+        </tr>
+        <tr> 
+            <td><label for="enter-hobbies">enter- hobbise</label></td>
+            <td><textarea name="" id=" "cols="50" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="readmore">readmore</label></td>
+            <td><input type="botton" value="readmore"></td>
+            <td><button>readmore</button></td>
+        </tr>
+        <tr>
+            <td><label for="file">file</label></td>
+            <td><input type="file" name="" id="file" accept="png"></td>
+        </tr>
+        <tr>
+            <td>city</td>
+            <td>
+                <select>
+                   <option value="none">select your city</option> 
+                   <option value="">surat</option> 
+                   <option value="">baroda</option> 
+                   <option value="">gandhinagar</option> 
+                   <option value="">mumbai</option> 
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="eduction">eduction</label></td>
+            <td>
+                <select multiple>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="bsc">bsc</option>
+                    <option value="bca">bca</option>
+                    <option value="dr">dr</option>
+                    <option value="phd">phd</option>
+                    <option value="mca">mca</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="color">color</label></td>
+            <td><input type="color" name="" id="color"></td>
+        </tr>
+        <tr>
+            <td><label for="range">range</label></td>
+            <td><input type="range" name="" id="range"></td>
+        </tr>
+        <tr>
+            <td><label for="reset">reset</label></td>
+            <td><input type="reset" name="" id="reset"></td>
+        </tr>
+        <tr>
+         <td><input type="submit" value="savedata"></td>
+        </tr>
+
+     </table>
+    </fieldset>
+    </form>
+</body>
+</html>
