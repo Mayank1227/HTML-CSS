@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        /*header{
+            height: 400px;
+            background-color: aquamarine;
+        }*/
+        .container{
+            width: 1200px;
+            margin: auto;
+            border: 2px solid wheat;
+        }
+       .navbra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       }
+       .logo img{
+        width: 50px;
+        margin:2px 0 0  30px;
+       }
+      .links ul li{
+        display: inline-block;
+        margin: 5px 10px;    
+      } 
+
+      .links ul li sup{
+         color: red;
+      }
+      .links ul li a{
+         text-decoration: none;
+        color: black;
+        cursor:pointer ;
+      }
+      .search-bar{
+       background-color: antiquewhite;
+       padding: 10px;
+       border-radius: 5px;
+      }
+      .side{
+        display: flex;
+        margin: 0px 10px;
+      }
+      input{
+            border: none;
+            outline: none;
+            margin: 0 0 0 20px;
+            /* padding-right: 100px; */
+            padding: 5px 20px;
+            border: none;
+            background-color: rgb(243, 237, 229);
+            font-size: large;
+      }
+      .profail{
+            text-align: center;
+            margin: 0px 10px;
+        }
+         .profail h6{
+            font-size: 1rem;
+        } 
+</style>
+</head>
+<body>
+    <header class=" container">
+        <nav class="navbra">
+            <div class="logo">
+             <img src="image/myntra-Logo-PNG.webp" alt="">
+            </div>
+            <div class="links">
+               <ul>
+                <li><a href="#">MENS</a></li>
+                <li><a href="#">WOOMENS</a></li>
+                <li><a href="#">KIDS</a></li>
+                <li><a href="#">HOME & LIVING</a></li>
+                <li><a href="#">BEAUTY</a></li>
+                <li><a href="#">STUDI<sup>NEW</sup></a></li>
+            </ul>
+                </div>
+                <div class="search-bar">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search for products, brands and more">
+                 </div>
+                </div>
+                <div class="side">
+                <div class="profail">
+                        <i class="fa-solid fa-user"></i>
+                        <h6>profail</h6>
+                        </div>  
+                         <div class="profail">
+                        <i class="fa-regular fa-heart"></i> 
+                        <h6>wishlst</h6>
+                        </div>
+                        <div class="profail">
+                       <i class="fa-solid fa-bag-shopping"></i>
+                       <h6>bag</h6>
+                    </div>
+              </div>                   
+        </nav>
+    </header>
+</body>
+</html>
